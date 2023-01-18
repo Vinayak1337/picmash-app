@@ -42,7 +42,7 @@ export default class InputOption extends Component {
         this.setState({file});
         const fd = new FormData();
         const name = `${this.props.user.id}_${Date.now()}.${file.type.split('/')[1]}`;
-        fd.append('images', event.target.files[0], name);
+        fd.append('postImage', event.target.files[0], name);
 
         const response = await fetch(`${this.props.baseUrl}/images`, {
             method: 'POST',
