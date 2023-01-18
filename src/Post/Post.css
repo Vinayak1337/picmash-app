@@ -1,0 +1,48 @@
+.post {
+    display: absolute;
+    background-color: #ffa3b0;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.post_header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.post_info {
+    margin-left: 10px;
+}
+
+.post_info > p {
+    font-size: 10px;
+    color: gray;
+    margin: 0;
+}
+
+.post_info > h2 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.post_body {
+    margin-left: 6.4%;
+    overflow-wrap: anywhere;
+}
+
+.post_body > p {
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+.post_body > img {
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+}
+
+.post_buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}

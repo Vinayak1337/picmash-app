@@ -1,0 +1,14 @@
+.home {
+    background: linear-gradient(89deg, #F27121 0%, #E94057 51%, #8A2387 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.home_body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}

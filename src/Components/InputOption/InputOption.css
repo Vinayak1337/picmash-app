@@ -1,0 +1,29 @@
+.inputOption > h1 {
+    font-size: 0.6em;
+}
+
+.inputOption {
+    display: flex;
+    align-items: center;
+    margin: 0 0.3em;
+    padding: 0 2px;
+    cursor: pointer;
+    color: gray;
+    height: 45px;
+}
+
+.inputOption:hover {
+    background-color: #df8f98;
+    border-radius: 10px;
+}
+
+.inputOption > h4 {
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 359) {
+    .inputOption {
+        margin: 0px;
+        padding: 0px;
+    }
+  }
