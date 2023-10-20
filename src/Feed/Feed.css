@@ -1,51 +1,55 @@
 .feed {
-    flex: 0.6 auto;
-    top: 80px;
-    margin: 0px 20px;
+	flex: 0.6 auto;
+	top: 80px;
+	margin: 0px 20px;
 }
 
 .feed_inputs {
-    position: sticky;
-    top: 7.5%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #ffa3b0;
-    padding: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    z-index: 999;
+	position: sticky;
+	top: 7.5%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #88d1ff;
+	padding: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	z-index: 999;
 }
 
 .feed_input {
-    border: 1px solid #ff4c64;
-    border-radius: 30px;
-    display: flex;
-    width: 100%;
-    padding: 10px;
-    color: gray;
-    padding-left: 15px;
+	border: 1px solid #2f7eae;
+	border-radius: 30px;
+	display: flex;
+	width: 100%;
+	padding: 10px;
+	color: gray;
+	padding-left: 15px;
 }
 
 .feed_input > form {
-    display: flex;
-    width: 100%;
+	display: flex;
+	width: 100%;
 }
 
 .feed_input > form > input {
-    border: none;
-    flex: 10%;
-    margin-left: 10px;
-    outline-width: 0;
-    font-weight: 600;
-    background-color: #ffa3b0;
+	border: none;
+	flex: 10%;
+	margin-left: 10px;
+	outline-width: 0;
+	font-weight: 600;
+	background-color: #88d1ff;
 }
 
 .feed_input > form > button {
-    display: none;
+	display: none;
 }
 
 .feed_inputOptions {
-    display: flex;
-    justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.feed {
+	max-width: 1250px;
 }
