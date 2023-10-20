@@ -1,5 +1,7 @@
 # Picmash App
 
+Picmash was envisioned as a social media application.
+
 This project was a rapid development challenge I undertook during my college days. Given a week, and with my budding knowledge of React at the time, I crafted this frontend for the Picmash application. While I've made sure it's operational for portfolio purposes, I haven't made significant changes to it since its initial creation.
 
 The application is built using React, JavaScript, and CSS.
